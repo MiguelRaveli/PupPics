@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import { TypeDog } from "./TypeDog/Typedog";
-import GoBackBtn from "../GoBackBtn/GoBackBtn";
+
 import PagesControl from "../PagesControl/PagesControl";
 
 import { BiSolidDog } from "react-icons/bi";
@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 
 import classes from "./DogPics.module.css";
 import ImgPlaceHolder from "./ImgPlaceHolder/ImgPlaceHolder";
+import { IoArrowBackCircle } from "react-icons/io5";
 
 const DogPics = () => {
   const [dogs, setDogs] = useState([]);
@@ -32,7 +33,7 @@ const DogPics = () => {
           <div className={classes.Header}>
             <div className={classes.title}>
               <Link to={"/"}>
-                <GoBackBtn />
+              <IoArrowBackCircle />
               </Link>
               <h1>
                 P<BiSolidDog />

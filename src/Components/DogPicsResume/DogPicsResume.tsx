@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 
 import { TypeDog } from "../DogPics/TypeDog/Typedog";
-import GoBackBtn from "../GoBackBtn/GoBackBtn";
+
 
 import { BiSolidDog } from "react-icons/bi";
 
@@ -12,6 +12,7 @@ import classes from "./DogPicsResume.module.css";
 
 import { endpoint, api_key } from "../Keys/Keys";
 import ResumePlaceHolder from "./ResumePlaceHolder/ResumePlaceHolder";
+import { IoArrowBackCircle } from "react-icons/io5";
 
 const DogPicsResume = () => {
   const { id } = useParams();
@@ -37,7 +38,7 @@ const DogPicsResume = () => {
     <div className={classes.DogPicsResume}>
       <div className={classes.title}>
         <Link to={"/dogpics"}>
-          <GoBackBtn />
+        <IoArrowBackCircle />
         </Link>
         <h1>
           P<BiSolidDog />

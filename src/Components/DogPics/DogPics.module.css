@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100vw;
   height: auto;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: rgb(22, 22, 22);
 }
 
@@ -14,7 +14,7 @@
   align-items: center;
   flex-direction: column;
   width: 70vw;
-  height: 88vh;
+  height: 80vh;
 }
 
 .title {
@@ -24,8 +24,8 @@
   align-items: center;
   height: 15vh;
 }
-.title h1 {
-  font-size: 5vw;
+.title h1, svg {
+  font-size: 4vw;
   color: white;
 }
 
@@ -106,7 +106,7 @@
     align-items: center;
     flex-direction: column;
     width: 70vw;
-    height: 88vh;
+    height: 80vh;
   }
 
   .title {
@@ -116,7 +116,7 @@
     align-items: center;
     height: 15vh;
   }
-  .title h1 {
+  .title h1, svg {
     font-size: 15vw;
     color: white;
   }

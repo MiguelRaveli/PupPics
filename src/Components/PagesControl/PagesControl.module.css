@@ -1,6 +1,7 @@
 .pages_control {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 0.5rem;
 }
 .pages_control button {
@@ -22,6 +23,7 @@
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
   width: 2.5vw;
+  height: 5vh;
   border: none;
   padding: 10px;
 }
@@ -53,12 +55,13 @@
 
   .pages_control div {
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
     color: rgb(22, 22, 22);
     transition: opacity 0.3s;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     width: 11vw;
+    height: 4.5vh;
     border: none;
     padding: 10px;
   }
