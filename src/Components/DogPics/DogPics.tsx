@@ -22,6 +22,7 @@ const DogPics = () => {
 
   useEffect(() => {
     getDogs({ limit, page, pesquisa, setEndPage, setDogs });
+    setLimit(6)
   }, [pesquisa, page]);
 
   return (
