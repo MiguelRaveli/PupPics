@@ -16,13 +16,13 @@
   opacity: 80%;
 }
 
-@media (max-width:480px){
+@media screen and (max-width: 1080px){
   .goback_btn {
-    width: 50px;
+    width: 140px;
     height: 6vh;
     display: flex;
     border-radius: 50%;
-    font-size: 11vw;
+    font-size: 13.5vw;
     background-color: white;
     text-decoration: none;
     color: rgb(46, 46, 46);

@@ -34,7 +34,7 @@
   opacity: 80%;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 1080px){
   .pages_control {
     display: flex;
     flex-direction: row;
@@ -58,7 +58,7 @@
     transition: opacity 0.3s;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    width: 9vw;
+    width: 11vw;
     border: none;
     padding: 10px;
   }

@@ -29,7 +29,7 @@
   margin: 1vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 1080px) {
   .NavBar {
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
   }
 
   .title h1 {
-    font-size: 15vw;
+    font-size: 20vw;
     color: rgb(253, 253, 253);
   }
 

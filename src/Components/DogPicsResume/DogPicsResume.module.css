@@ -48,7 +48,7 @@
   justify-content: center;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 1080px){
   .DogPicsResume {
     width: 100vw;
     height: 100vh;
@@ -87,7 +87,7 @@
   .img {
     border-radius: 50px;
     padding: 10px;
-    width: 60vw;
+    width: 80vw;
     height: 30vh;
   }
 
@@ -99,5 +99,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .resume h2{
+    font-size: 5vw;
   }
 }

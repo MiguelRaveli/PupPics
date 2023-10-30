@@ -10,9 +10,9 @@
   color: rgb(255, 255, 255);
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 1080px) {
   .icons {
-    font-size: 10vw;
+    font-size: 15vw;
     margin-top: 30px;
   }
 }
