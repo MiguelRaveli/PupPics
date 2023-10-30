@@ -1,0 +1,18 @@
+.icons  {
+  width: 7vw;
+  font-size: 2.1vw;
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icons svg {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 480px) {
+  .icons {
+    font-size: 10vw;
+    margin-top: 30px;
+  }
+}

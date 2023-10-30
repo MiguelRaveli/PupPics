@@ -1,0 +1,65 @@
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  height: 80vh;
+  width: 40vw;
+}
+
+.title h1 {
+  font-size: 5vw;
+  color: rgb(253, 253, 253);
+}
+
+.sub_title {
+  width: 40vw;
+}
+.sub_title h2 {
+  font-size: 3vw;
+  color: rgb(253, 253, 253);
+}
+
+.img_logo {
+  background-image: url("../../img/LOGO_R.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 5vw;
+  height: 10vh;
+  margin: 1vw;
+}
+
+@media (max-width: 480px) {
+  .NavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 20px;
+    height: 80vh;
+    width: 90vw;
+  }
+
+  .title h1 {
+    font-size: 15vw;
+    color: rgb(253, 253, 253);
+  }
+
+  .sub_title {
+    width: 90vw;
+
+  }
+  .sub_title h2 {
+    font-size: 10vw;
+    color: rgb(253, 253, 253);
+  }
+
+
+  .img_logo {
+    background-image: url("../../img/LOGO_R.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5vw;
+    height: 10vh;
+    margin: 1vw;
+  }
+}

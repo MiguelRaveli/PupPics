@@ -1,0 +1,61 @@
+.img_dogs_placeholder {
+  width: calc(18vw - 1rem);
+  height: 32vh;
+  border-radius: 50px;
+
+  background: linear-gradient(130deg, #000000, rgb(56, 56, 56), #464646);
+  background-size: 200% 200%;
+
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+}
+
+@media (max-width: 480px) {
+  .img_dogs_placeholder {
+    width: calc(46vw - 1rem);
+    height: 27vh;
+    border-radius: 50px;
+
+    background: linear-gradient(130deg, #000000, rgb(56, 56, 56), #464646);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+  }
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@-moz-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}

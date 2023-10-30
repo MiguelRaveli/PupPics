@@ -1,0 +1,15 @@
+.Botao{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(255, 123, 47),rgb(255, 110, 25), rgb(209, 77, 0));
+    color: white;
+    font-size: 3vh;
+    transition: transform .3s;
+}
+
+.Botao:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}

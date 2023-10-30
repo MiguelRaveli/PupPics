@@ -1,0 +1,103 @@
+.DogPicsResume {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+.title h1 {
+  font-size: 5vw;
+  color: white;
+}
+.container_resume {
+  width: 90vw;
+  height: auto;
+  border: solid;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.img {
+  border-radius: 50px;
+  padding: 10px;
+  width: 35vw;
+  height: 50vh;
+}
+
+.resume {
+  width: calc(70vw - 10px);
+  height: 50vh;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .DogPicsResume {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+  }
+
+  .title {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+  }
+  .title h1 {
+    font-size: 15vw;
+    color: white;
+  }
+  .container_resume {
+    width: 90vw;
+    height: 85vh;
+    border: solid;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .img {
+    border-radius: 50px;
+    padding: 10px;
+    width: 60vw;
+    height: 30vh;
+  }
+
+  .resume {
+    width: calc(70vw - 10px);
+    height: 50vh;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
