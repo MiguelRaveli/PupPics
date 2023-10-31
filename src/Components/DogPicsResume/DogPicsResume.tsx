@@ -5,7 +5,6 @@ import axios from "axios";
 
 import { TypeDog } from "../DogPics/TypeDog/Typedog";
 
-
 import { BiSolidDog } from "react-icons/bi";
 
 import classes from "./DogPicsResume.module.css";
@@ -37,9 +36,11 @@ const DogPicsResume = () => {
   return (
     <div className={classes.DogPicsResume}>
       <div className={classes.title}>
-        <Link to={"/dogpics"}>
-        <IoArrowBackCircle />
-        </Link>
+        <h2>
+          <Link to={"/dogpics"}>
+            <IoArrowBackCircle />
+          </Link>
+        </h2>
         <h1>
           P<BiSolidDog />
           pPics

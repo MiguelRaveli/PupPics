@@ -22,8 +22,12 @@ const DogPics = () => {
   const [pesquisa, setPesquisa] = useState("");
 
   useEffect(() => {
-    getDogs({ limit, page, pesquisa, setEndPage, setDogs });
-    setLimit(6)
+    setLimit(6);
+    setDogs([]);
+    const timer = setTimeout(() => {
+      getDogs({ limit, page, pesquisa, setEndPage, setDogs });
+    }, 500);
+    return () => clearTimeout(timer);
   }, [pesquisa, page]);
 
   return (
@@ -32,12 +36,14 @@ const DogPics = () => {
         <div className={classes.DogPics_container}>
           <div className={classes.Header}>
             <div className={classes.title}>
-              <Link to={"/"}>
-              <IoArrowBackCircle />
-              </Link>
+              <h2>
+                <Link to={"/"}>
+                  <IoArrowBackCircle />
+                </Link>
+              </h2>
               <h1>
                 P<BiSolidDog />
-                pPics
+                pPic
               </h1>
             </div>
             <div>

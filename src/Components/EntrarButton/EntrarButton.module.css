@@ -1,5 +1,5 @@
 .Botao{
-    width: 30vw;
+    width: 8.5vw;
     height: 7vh;
     border-radius: 50px;
     border: none;
@@ -7,9 +7,50 @@
     color: white;
     font-size: 3vh;
     transition: transform .3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .Botao:hover{
     cursor: pointer;
     transform: translateY(-3px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .Botao{
+        width: 25vw;
+        height: 7vh;
+        border-radius: 50px;
+        border: none;
+        background-image: linear-gradient(rgb(255, 123, 47),rgb(255, 110, 25), rgb(209, 77, 0));
+        color: white;
+        font-size: 3vh;
+        transition: transform .3s;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .Botao{
+        width: 25vw;
+        height: 7vh;
+        border-radius: 50px;
+        border: none;
+        background-image: linear-gradient(rgb(255, 123, 47),rgb(255, 110, 25), rgb(209, 77, 0));
+        color: white;
+        font-size: 3vh;
+        transition: transform .3s;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    .Botao{
+        width: 25vw;
+        height: 7vh;
+        border-radius: 50px;
+        border: none;
+        background-image: linear-gradient(rgb(255, 123, 47),rgb(255, 110, 25), rgb(209, 77, 0));
+        color: white;
+        font-size: 3vh;
+        transition: transform .3s;
+    }
 }

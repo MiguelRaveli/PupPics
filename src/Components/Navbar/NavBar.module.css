@@ -5,6 +5,7 @@
   margin: 20px;
   height: 80vh;
   width: 40vw;
+  padding-left: 60px;
 }
 
 .title h1 {
@@ -37,6 +38,7 @@
     margin: 20px;
     height: 80vh;
     width: 90vw;
+    padding-left: 0;
   }
 
   .title h1 {
